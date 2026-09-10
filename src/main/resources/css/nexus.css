@@ -1,0 +1,332 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.root {
+    -fx-background-color: #080b12;
+    -fx-text-fill: #eef2ff;
+}
+
+.sidebar {
+    -fx-background-color: #0b0f18;
+    -fx-border-color: #171d2b;
+    -fx-border-width: 0 1 0 0;
+}
+
+.logo {
+    -fx-text-fill: #f4f7ff;
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+    -fx-letter-spacing: 3px;
+}
+
+.sidebar-subtitle {
+    -fx-text-fill: #667085;
+    -fx-font-size: 9px;
+    -fx-font-weight: 700;
+}
+
+.sidebar .separator {
+    -fx-background-color: #1a2232;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8993a7;
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+    -fx-padding: 13px 15px;
+    -fx-background-radius: 9px;
+    -fx-cursor: hand;
+}
+
+.nav-button:hover {
+    -fx-background-color: #141b29;
+    -fx-text-fill: #f0f4ff;
+}
+
+.sidebar-footer {
+    -fx-text-fill: #4f5a70;
+    -fx-font-size: 9px;
+    -fx-font-weight: 700;
+}
+
+.topbar {
+    -fx-background-color: #0b0f18;
+    -fx-border-color: #171d2b;
+    -fx-border-width: 0 0 1 0;
+}
+
+.page-title {
+    -fx-text-fill: #f4f7ff;
+    -fx-font-size: 19px;
+    -fx-font-weight: 800;
+}
+
+.live-pill {
+    -fx-text-fill: #77e6bb;
+    -fx-background-color: #0c241d;
+    -fx-padding: 7px 11px;
+    -fx-background-radius: 20px;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+
+.primary-button {
+    -fx-background-color: #eef2ff;
+    -fx-text-fill: #080b12;
+    -fx-font-weight: 800;
+    -fx-font-size: 11px;
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: white;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.page-description {
+    -fx-text-fill: #717c90;
+    -fx-font-size: 12px;
+}
+
+.stat-card, .panel {
+    -fx-background-color: #0d121c;
+    -fx-border-color: #1a2231;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+.stat-card {
+    -fx-padding: 19px;
+    -fx-min-height: 135px;
+}
+
+.card-label, .panel-title {
+    -fx-text-fill: #68748a;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+
+.card-value {
+    -fx-text-fill: #f5f7ff;
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+.card-detail, .row-detail {
+    -fx-text-fill: #566175;
+    -fx-font-size: 11px;
+}
+
+.big-number {
+    -fx-text-fill: #f4f7ff;
+    -fx-font-size: 27px;
+    -fx-font-weight: 800;
+}
+
+.risk-text {
+    -fx-text-fill: #7c879a;
+    -fx-font-size: 12px;
+}
+
+.progress {
+    -fx-accent: #76d8b0;
+}
+
+.student-row {
+    -fx-padding: 12px;
+    -fx-background-color: #101620;
+    -fx-background-radius: 8px;
+}
+
+.interactive-row:hover {
+    -fx-background-color: #151d2a;
+}
+
+.row-name {
+    -fx-text-fill: #e8ecf7;
+    -fx-font-weight: 700;
+}
+
+.row-average {
+    -fx-text-fill: #cbd3e4;
+    -fx-font-weight: 800;
+}
+
+.grade-badge {
+    -fx-text-fill: #8ee5c2;
+    -fx-background-color: #10271f;
+    -fx-background-radius: 5px;
+    -fx-padding: 4px 7px;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+
+.small-button {
+    -fx-background-color: #192233;
+    -fx-text-fill: #c7d0e2;
+    -fx-font-size: 9px;
+    -fx-font-weight: 800;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.danger-button {
+    -fx-background-color: #2a171d;
+    -fx-text-fill: #e99aa8;
+    -fx-font-size: 9px;
+    -fx-font-weight: 800;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.search-field, .dialog-pane .text-field {
+    -fx-background-color: #0d121c;
+    -fx-border-color: #1b2535;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #e8edf8;
+    -fx-prompt-text-fill: #536075;
+    -fx-padding: 11px;
+}
+
+.record-count {
+    -fx-text-fill: #667287;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+
+.clean-scroll {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.clean-scroll .viewport {
+    -fx-background-color: transparent;
+}
+
+.empty-state {
+    -fx-text-fill: #5f6b7e;
+    -fx-font-size: 12px;
+    -fx-padding: 30px;
+}
+
+.chart {
+    -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.axis {
+    -fx-tick-label-fill: #667287;
+}
+
+.axis-label {
+    -fx-text-fill: #667287;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.dialog-pane {
+    -fx-background-color: #0d121c;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #101620;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #aeb8ca;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #192233;
+    -fx-text-fill: #dbe2f1;
+    -fx-background-radius: 6px;
+}
+
+.toast {
+    -fx-background-color: #eaf0ff;
+    -fx-text-fill: #090c13;
+    -fx-font-weight: 800;
+    -fx-padding: 11px 16px;
+    -fx-background-radius: 8px;
+}
+
+
+/* --- NEXUS dashboard polish --- */
+.panel {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.28), 18, 0.15, 0, 5);
+}
+
+.stat-card:hover {
+    -fx-background-color: #111925;
+    -fx-border-color: #27344a;
+    -fx-translate-y: -2px;
+}
+
+.stat-card {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.22), 14, 0.12, 0, 4);
+}
+
+.mini-progress {
+    -fx-accent: #7ddbb7;
+    -fx-pref-height: 7px;
+}
+
+.insight-text {
+    -fx-text-fill: #aeb8ca;
+    -fx-font-size: 13px;
+    -fx-line-spacing: 6px;
+}
+
+.student-list {
+    -fx-padding: 2px;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #293449;
+    -fx-background-radius: 8px;
+}
+
+.chart-pie-label {
+    -fx-fill: #aeb8ca;
+}
+
+.chart-pie-label-line {
+    -fx-stroke: #4b586d;
+}
+
+.default-color0.chart-bar,
+.default-color1.chart-bar,
+.default-color2.chart-bar,
+.default-color3.chart-bar {
+    -fx-background-radius: 5px 5px 0 0;
+}
+
+.dialog-pane {
+    -fx-border-color: #263248;
+    -fx-border-width: 1px;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #f4f7ff;
+    -fx-font-size: 15px;
+    -fx-font-weight: 800;
+}
+
+.button {
+    -fx-cursor: hand;
+}
